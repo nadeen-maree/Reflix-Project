@@ -106,6 +106,10 @@ body{
 
 }
 
+.welcome{
+  text-align: center;
+}
+
 .movie-template{
   display: inline-block;
   text-align: center;
