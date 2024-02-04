@@ -1,0 +1,206 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-color: #282c34;
+}
+
+.user-template{
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 300px;
+  font-size: 36px;
+  font-family:monospace;
+  color:#282c34;
+}
+
+.website-name{
+  text-align: end;
+  color: cadetblue;
+  font-size: 40px;
+}
+
+.landing-question{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 28px;
+  font-family: fantasy;
+  color: aliceblue;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+  padding: 0 16px;
+}
+
+.navbar a {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 16px;
+  font-size: 24px;
+  color:white;
+  font-weight: bold;
+  font-family: fantasy;
+}
+
+.header{
+  display: inline-flex;
+}
+
+.catalog{
+  color: aliceblue;
+}
+
+.header-title{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 28px;
+  font-family: fantasy;
+  color: aliceblue;
+
+}
+
+.movie-template{
+  display: inline-block;
+  text-align: center;
+  background-color: gray;
+  height: 330px;
+  width: 300px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.movie-img{
+  height: 200px;
+  width: 200px;
+}
+
+.btn-container{
+  display: flex;
+}
+
+.rent-btn{
+  background-color: cadetblue;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.un-rent-btn{
+  background-color: cadetblue;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.budget{
+  text-align: end;
+  margin: 30px;
+}
+
+.search-bar {
+  text-align: center;
+  margin-bottom: 50px;
+  width: 30%; 
+  margin: 50px auto;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.movie-detail {
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-title{
+  font-family: fantasy;
+}
+
+.movie-descr-img {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.movie-descr-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.movieDescr {
+  width: 70%;
+}
+
+
+
